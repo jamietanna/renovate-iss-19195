@@ -6,7 +6,7 @@ terraform {
       version = "~> 3.43"
     }
     hcp = {
-      source  = "hashicorp/hcp"
+      source  = "non-existent-registry.example.com/hashicorp/hcp"
       version = ">= 0.18.0"
     }
     kubernetes = {
