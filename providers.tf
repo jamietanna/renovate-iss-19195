@@ -1,7 +1,8 @@
 terraform {
   required_providers {
     aws = {
-      source  = "hashicorp/aws"
+      // works, as it's the default registry
+      source  = "registry.terraform.io/hashicorp/aws"
       version = "~> 3.43"
     }
     hcp = {
